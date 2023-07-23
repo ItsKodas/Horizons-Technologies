@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    
+    <EntityContainers>
+        <Container>
+            <Id>
+                <TypeId>SafeZoneBlock</TypeId>
+                <SubtypeId>SafeZoneBlockT2</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlockT2"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>SafeZoneBlock</TypeId>
+                <SubtypeId>SafeZoneBlockT3</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlockT3"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>SafeZoneBlock</TypeId>
+                <SubtypeId>SafeZoneBlockT4</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="SafeZoneBlockT4"/>
+            </DefaultComponents>
+        </Container>
+    </EntityContainers>
+
+
+    <EntityComponents>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>SafeZoneBlockT2</SubtypeId>
+            </Id>
+            <Volume>0.005</Volume>
+            <InputConstraint IsWhitelist="true">
+                <Entry>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>ZoneChip</SubtypeId>
+                </Entry>
+            </InputConstraint>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>SafeZoneBlockT3</SubtypeId>
+            </Id>
+            <Volume>0.005</Volume>
+            <InputConstraint IsWhitelist="true">
+                <Entry>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>ZoneChip</SubtypeId>
+                </Entry>
+            </InputConstraint>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>SafeZoneBlockT4</SubtypeId>
+            </Id>
+            <Volume>0.005</Volume>
+            <InputConstraint IsWhitelist="true">
+                <Entry>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>ZoneChip</SubtypeId>
+                </Entry>
+            </InputConstraint>
+        </EntityComponent>
+    </EntityComponents>
+
+</Definitions>

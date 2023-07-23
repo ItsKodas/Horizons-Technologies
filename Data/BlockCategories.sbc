@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CategoryClasses>
+
+        <!-- Ship Tools -->
+
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>DisplayName_Category_ShipTools</DisplayName>
+            <Name>ShipTools</Name>
+            <SearchBlocks>false</SearchBlocks>
+            <IsShipCategory>true</IsShipCategory>
+            <IsBlockCategory>false</IsBlockCategory>
+            <IsToolCategory>true</IsToolCategory>
+            <ItemIds>
+                <string>ShipGrinder/LargeShipGrinder</string>
+                <string>ShipWelder/LargeShipWelder</string>
+                <string>Drill/LargeBlockDrill</string>
+                <string>Drill/SmallBlockDrill</string>
+                <string>ShipGrinder/SmallShipGrinder</string>
+                <string>ShipWelder/SmallShipWelder</string>
+
+                <string>Drill/LargeBlockDrillT2</string>
+                <string>Drill/SmallBlockDrillT2</string>
+
+                <string>Drill/LargeBlockDrillT3</string>
+                <string>Drill/SmallBlockDrillT3</string>
+
+                <string>Drill/LargeBlockDrillT4</string>
+                <string>Drill/SmallBlockDrillT4</string>
+            </ItemIds>
+        </Category>
+
+
+
+        <!-- Standard Technology -->
+
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>[+] Tiered Tech</DisplayName>
+            <Name>a-1-horizons-tech</Name>
+            <ItemIds>
+
+                <!-- Production -->
+
+                <string>Refinery/LargeRefinery</string>
+                <string>Refinery/LargeRefineryT2</string>
+                <string>Refinery/LargeRefineryT3</string>
+                <string>Refinery/LargeRefineryT4</string>
+
+                <string>Assembler/LargeAssembler</string>
+                <string>Assembler/LargeAssemblerT2</string>
+                <string>Assembler/LargeAssemblerT3</string>
+                <string>Assembler/LargeAssemblerT4</string>
+
+
+
+                <!-- Utility -->
+
+                <string>Drill/LargeBlockDrillT2</string>
+                <string>Drill/LargeBlockDrillT3</string>
+                <string>Drill/LargeBlockDrillT4</string>
+
+                <string>OreDetector/LargeOreDetectorT2</string>
+                <string>OreDetector/LargeOreDetectorT3</string>
+                <string>OreDetector/LargeOreDetectorT4</string>
+
+                <string>SafeZoneBlock/SafeZoneBlockT2</string>
+                <string>SafeZoneBlock/SafeZoneBlockT3</string>
+                <string>SafeZoneBlock/SafeZoneBlockT4</string>
+
+
+
+                <!-- Propulsion -->
+
+                <string>Gyro/SmallBlockGyroT2</string>
+                <string>Gyro/SmallBlockGyroT3</string>
+                <string>Gyro/SmallBlockGyroT4</string>
+
+                <string>Gyro/LargeBlockGyroT2</string>
+                <string>Gyro/LargeBlockGyroT3</string>
+                <string>Gyro/LargeBlockGyroT4</string>
+
+
+                <string>JumpDrive/SmallJumpDriveT2</string>
+                <string>JumpDrive/SmallJumpDriveT3</string>
+                <string>JumpDrive/SmallJumpDriveT4</string>
+
+                <string>JumpDrive/LargeJumpDriveT2</string>
+                <string>JumpDrive/LargeJumpDriveT3</string>
+                <string>JumpDrive/LargeJumpDriveT4</string>
+
+
+
+                <!-- Power -->
+
+                <string>BatteryBlock/SmallBlockSmallBatteryBlockT2</string>
+                <string>BatteryBlock/SmallBlockSmallBatteryBlockT3</string>
+                <string>BatteryBlock/SmallBlockSmallBatteryBlockT4</string>
+
+                <string>BatteryBlock/SmallBlockBatteryBlockT2</string>
+                <string>BatteryBlock/SmallBlockBatteryBlockT3</string>
+                <string>BatteryBlock/SmallBlockBatteryBlockT4</string>
+
+                <string>BatteryBlock/LargeBlockBatteryBlockT2</string>
+                <string>BatteryBlock/LargeBlockBatteryBlockT3</string>
+                <string>BatteryBlock/LargeBlockBatteryBlockT4</string>
+
+
+                <string>Reactor/LargeBlockSmallGeneratorT2</string>
+                <string>Reactor/LargeBlockSmallGeneratorT3</string>
+                <string>Reactor/LargeBlockSmallGeneratorT4</string>
+
+                <string>Reactor/LargeBlockLargeGeneratorT2</string>
+                <string>Reactor/LargeBlockLargeGeneratorT3</string>
+                <string>Reactor/LargeBlockLargeGeneratorT4</string>
+
+                <string>Reactor/SmallBlockSmallGeneratorT2</string>
+                <string>Reactor/SmallBlockSmallGeneratorT3</string>
+                <string>Reactor/SmallBlockSmallGeneratorT4</string>
+                
+                <string>Reactor/SmallBlockLargeGeneratorT2</string>
+                <string>Reactor/SmallBlockLargeGeneratorT3</string>
+                <string>Reactor/SmallBlockLargeGeneratorT4</string>
+
+
+
+                <!-- Logistics -->
+
+                <string>CargoContainer/SmallBlockSmallContainerT2</string>
+                <string>CargoContainer/SmallBlockSmallContainerT3</string>
+                <string>CargoContainer/SmallBlockSmallContainerT4</string>
+
+                <string>CargoContainer/LargeBlockSmallContainerT2</string>
+                <string>CargoContainer/LargeBlockSmallContainerT3</string>
+                <string>CargoContainer/LargeBlockSmallContainerT4</string>
+
+
+                <string>CargoContainer/SmallBlockMediumContainerT2</string>
+                <string>CargoContainer/SmallBlockMediumContainerT3</string>
+                <string>CargoContainer/SmallBlockMediumContainerT4</string>
+                
+
+                <string>CargoContainer/SmallBlockLargeContainerT2</string>
+                <string>CargoContainer/SmallBlockLargeContainerT3</string>
+                <string>CargoContainer/SmallBlockLargeContainerT4</string>
+
+                <string>CargoContainer/LargeBlockLargeContainerT2</string>
+                <string>CargoContainer/LargeBlockLargeContainerT3</string>
+                <string>CargoContainer/LargeBlockLargeContainerT4</string>
+
+
+
+                <string>OxygenTank/SmallHydrogenTankSmallT2</string>
+                <string>OxygenTank/SmallHydrogenTankSmallT3</string>
+                <string>OxygenTank/SmallHydrogenTankSmallT4</string>
+
+                <string>OxygenTank/SmallHydrogenTankT2</string>
+                <string>OxygenTank/SmallHydrogenTankT3</string>
+                <string>OxygenTank/SmallHydrogenTankT4</string>
+
+
+                <string>OxygenTank/LargeHydrogenTankSmallT2</string>
+                <string>OxygenTank/LargeHydrogenTankSmallT3</string>
+                <string>OxygenTank/LargeHydrogenTankSmallT4</string>
+
+                <string>OxygenTank/LargeHydrogenTankT2</string>
+                <string>OxygenTank/LargeHydrogenTankT3</string>
+                <string>OxygenTank/LargeHydrogenTankT4</string>
+
+
+
+                <string>OxygenTank/OxygenTankSmallT2</string>
+                <string>OxygenTank/OxygenTankSmallT3</string>
+                <string>OxygenTank/OxygenTankSmallT4</string>
+
+                <string>OxygenTank/OxygenTankT2</string>
+                <string>OxygenTank/OxygenTankT3</string>
+                <string>OxygenTank/OxygenTankT4</string>
+
+
+
+                <string>OxygenGenerator/OxygenGeneratorSmallT2</string>
+                <string>OxygenGenerator/OxygenGeneratorSmallT3</string>
+                <string>OxygenGenerator/OxygenGeneratorSmallT4</string>
+
+                <string>OxygenGenerator/OxygenGeneratorLargeT2</string>
+                <string>OxygenGenerator/OxygenGeneratorLargeT3</string>
+                <string>OxygenGenerator/OxygenGeneratorLargeT4</string>
+
+
+
+                <!-- Armor -->
+
+                <string>CubeBlock/LargePrismaticArmorBlock</string>
+                <string>CubeBlock/LargePrismaticArmorSlope</string>
+                <string>CubeBlock/LargePrismaticArmorCorner</string>
+                <string>CubeBlock/LargePrismaticArmorCornerInv</string>
+
+                <string>CubeBlock/SmallPrismaticArmorBlock</string>
+                <string>CubeBlock/SmallPrismaticArmorSlope</string>
+                <string>CubeBlock/SmallPrismaticArmorCorner</string>
+                <string>CubeBlock/SmallPrismaticArmorCornerInv</string>
+
+
+            </ItemIds>
+        </Category>
+
+
+        <!-- Gravel Sifter -->
+
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>DisplayName_Category_Production</DisplayName>
+            <Name>Production</Name>
+            <ItemIds>
+                <string>Refinery/GravelSifterT1</string>
+            </ItemIds>
+        </Category>
+
+    </CategoryClasses>
+</Definitions>

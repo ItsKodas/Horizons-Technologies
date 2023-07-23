@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+
+        <!-- Tritium -->
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TritiumToGas</SubtypeId>
+            </Id>
+            <DisplayName>Tritium Gas</DisplayName>
+            <Icon>Textures\GUI\Icons\tritium.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Tritium" />
+            </Prerequisites>
+            <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
+            <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+
+
+        <!-- Bismuth -->
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BismuthOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>Bismuth Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\bismuth_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ore" SubtypeId="Bismuth" />
+            </Prerequisites>
+            <Results>
+                <Item Amount="0.03" TypeId="Ingot" SubtypeId="BismuthIngot" />
+                <Item Amount="0.65" TypeId="Ingot" SubtypeId="BismuthDust" />
+            </Results>
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BismuthGravel</SubtypeId>
+            </Id>
+            <DisplayName>Bismuth Gravel</DisplayName>
+            <Icon>Textures\GUI\Icons\bismuth_gravel.dds</Icon>
+            <Prerequisites>
+                <Item Amount="6" TypeId="Ingot" SubtypeId="BismuthDust" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="BismuthGravel" />
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BismuthDisk</SubtypeId>
+            </Id>
+            <DisplayName>Bismuth Disk</DisplayName>
+            <Icon>Textures\GUI\Icons\bismuth_disk.dds</Icon>
+            <Prerequisites>
+                <Item Amount="3" TypeId="Ingot" SubtypeId="BismuthIngot" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="BismuthDust" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="BismuthDisk" />
+            <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BismuthCrystal</SubtypeId>
+            </Id>
+            <DisplayName>Bismuth Crystal</DisplayName>
+            <Icon>Textures\GUI\Icons\bismuth_crystal.dds</Icon>
+            <Prerequisites>
+                <Item Amount="60" TypeId="Ingot" SubtypeId="BismuthIngot" />
+                <Item Amount="1500" TypeId="Ingot" SubtypeId="BismuthDust" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="BismuthCrystal" />
+            <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        
+
+        <!-- Tiered Tech -->
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TechT2</SubtypeId>
+            </Id>
+            <DisplayName>Common Tech</DisplayName>
+            <Icon>Textures\techT2.dds</Icon>
+            <Prerequisites>
+                <Item Amount="45" TypeId="Ingot" SubtypeId="Iron"/>
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Silicon"/>
+                <Item Amount="16" TypeId="Ingot" SubtypeId="Cobalt"/>
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Silver"/>
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Gold"/>
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="TechT2"/>
+            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TechT3</SubtypeId>
+            </Id>
+            <DisplayName>Rare Tech</DisplayName>
+            <Icon>Textures\techT3.dds</Icon>
+            <Prerequisites>
+                <Item Amount="80" TypeId="Ingot" SubtypeId="Iron"/>
+                <Item Amount="60" TypeId="Ingot" SubtypeId="Silicon"/>
+                <Item Amount="24" TypeId="Ingot" SubtypeId="Cobalt"/>
+                <Item Amount="18" TypeId="Ingot" SubtypeId="Silver"/>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Gold"/>
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Uranium"/>
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="TechT3"/>
+            <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>TechT4</SubtypeId>
+            </Id>
+            <DisplayName>Exotic Tech</DisplayName>
+            <Icon>Textures\techT4.dds</Icon>
+            <Prerequisites>
+                <Item Amount="120" TypeId="Ingot" SubtypeId="Iron"/>
+                <Item Amount="90" TypeId="Ingot" SubtypeId="Silicon"/>
+                <Item Amount="36" TypeId="Ingot" SubtypeId="Cobalt"/>
+                <Item Amount="25" TypeId="Ingot" SubtypeId="Silver"/>
+                <Item Amount="16" TypeId="Ingot" SubtypeId="Gold"/>
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Uranium"/>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Platinum"/>
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="TechT4"/>
+            <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+
+
+        <!-- Gravel Sifter -->
+
+        <Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GravelToIngots</SubtypeId>
+			</Id>
+			<DisplayName>Gravel To Ingots</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="0.0090" TypeId="Ore" SubtypeId="Iron" />
+				<Item Amount="0.0050" TypeId="Ore" SubtypeId="Nickel" />
+				<Item Amount="0.0040" TypeId="Ore" SubtypeId="Silicon" />
+				<Item Amount="0.0030" TypeId="Ore" SubtypeId="Ice" />
+				<Item Amount="0.0020" TypeId="Ore" SubtypeId="Cobalt" />
+				<Item Amount="0.0010" TypeId="Ore" SubtypeId="Magnesium" />
+				<Item Amount="0.0005" TypeId="Ore" SubtypeId="Silver" />
+				<Item Amount="0.0003" TypeId="Ore" SubtypeId="Gold" />
+				<Item Amount="0.0002" TypeId="Ore" SubtypeId="Platinum" />
+				<Item Amount="0.0001" TypeId="Ore" SubtypeId="Uranium" />
+			</Results>
+			<BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
+		</Blueprint>
+
+    </Blueprints>
+</Definitions>

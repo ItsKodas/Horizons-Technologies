@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <!-- Tier 1 -->
+        <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
+            <Id>
+                <TypeId>SafeZoneBlock</TypeId>
+                <SubtypeId>SafeZoneBlock</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SafeZone</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
+            <Description>Description_SafeZone</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
+
+            <Components>
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="200" />
+                <Component Subtype="Computer" Count="100" />
+                <Component Subtype="SteelPlate" Count="50" />
+            </Components>
+
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="2.5" />
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Right" StartX="1" StartY="0.5" EndX="2" EndY="2" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" />
+            </BuildProgressModels>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
+                <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
+            </ScreenAreas>
+            <BlockPairName>SafeZone</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Safezone info -->
+            <MaxSafeZoneRadius>50</MaxSafeZoneRadius>
+            <MinSafeZoneRadius>10</MinSafeZoneRadius>
+            <DefaultSafeZoneRadius>50</DefaultSafeZoneRadius>
+            <SafeZoneActivationTimeS>30</SafeZoneActivationTimeS>
+            <MaxSafeZonePowerDrainkW>15000</MaxSafeZonePowerDrainkW>
+            <MinSafeZonePowerDrainkW>5000</MinSafeZonePowerDrainkW>
+            <SafeZoneUpkeep>1</SafeZoneUpkeep>
+            <SafeZoneUpkeepTimeM>1440</SafeZoneUpkeepTimeM>
+            <!-- End Safezone Props-->
+
+            <ActionSound>BlockSafeZone</ActionSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10000</PCU>
+        </Definition>
+
+        <!-- Tier 2 -->
+        <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
+            <Id>
+                <TypeId>SafeZoneBlock</TypeId>
+                <SubtypeId>SafeZoneBlockT2</SubtypeId>
+            </Id>
+            <DisplayName>Enhanced Safe Zone</DisplayName>
+            <Icon>Textures\SafeZoneBlockT2.dds</Icon>
+            <Description>Description_SafeZone</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
+
+            <Components>
+                <Component Subtype="TechT2" Count="50"/>
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="200" />
+                <Component Subtype="Computer" Count="100" />
+                <Component Subtype="SteelPlate" Count="50" />
+            </Components>
+
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="2.5" />
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Right" StartX="1" StartY="0.5" EndX="2" EndY="2" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" />
+            </BuildProgressModels>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
+                <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
+            </ScreenAreas>
+            <BlockPairName>SafeZoneT2</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Safezone info -->
+            <MaxSafeZoneRadius>75</MaxSafeZoneRadius>
+            <MinSafeZoneRadius>10</MinSafeZoneRadius>
+            <DefaultSafeZoneRadius>75</DefaultSafeZoneRadius>
+            <SafeZoneActivationTimeS>45</SafeZoneActivationTimeS>
+            <MaxSafeZonePowerDrainkW>30000</MaxSafeZonePowerDrainkW>
+            <MinSafeZonePowerDrainkW>10000</MinSafeZonePowerDrainkW>
+            <SafeZoneUpkeep>1</SafeZoneUpkeep>
+            <SafeZoneUpkeepTimeM>1080</SafeZoneUpkeepTimeM>
+            <!-- End Safezone Props-->
+
+            <ActionSound>BlockSafeZone</ActionSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10000</PCU>
+        </Definition>
+
+        <!-- Tier 3 -->
+        <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
+            <Id>
+                <TypeId>SafeZoneBlock</TypeId>
+                <SubtypeId>SafeZoneBlockT3</SubtypeId>
+            </Id>
+            <DisplayName>Proficient Safe Zone</DisplayName>
+            <Icon>Textures\SafeZoneBlockT3.dds</Icon>
+            <Description>Description_SafeZone</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
+
+            <Components>
+                <Component Subtype="TechT3" Count="50"/>
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="200" />
+                <Component Subtype="Computer" Count="100" />
+                <Component Subtype="SteelPlate" Count="50" />
+            </Components>
+
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="2.5" />
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Right" StartX="1" StartY="0.5" EndX="2" EndY="2" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" />
+            </BuildProgressModels>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
+                <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
+            </ScreenAreas>
+            <BlockPairName>SafeZoneT3</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <BuildTimeSeconds>45</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Safezone info -->
+            <MaxSafeZoneRadius>100</MaxSafeZoneRadius>
+            <MinSafeZoneRadius>10</MinSafeZoneRadius>
+            <DefaultSafeZoneRadius>100</DefaultSafeZoneRadius>
+            <SafeZoneActivationTimeS>60</SafeZoneActivationTimeS>
+            <MaxSafeZonePowerDrainkW>45000</MaxSafeZonePowerDrainkW>
+            <MinSafeZonePowerDrainkW>15000</MinSafeZonePowerDrainkW>
+            <SafeZoneUpkeep>1</SafeZoneUpkeep>
+            <SafeZoneUpkeepTimeM>720</SafeZoneUpkeepTimeM>
+            <!-- End Safezone Props-->
+
+            <ActionSound>BlockSafeZone</ActionSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10000</PCU>
+        </Definition>
+
+        <!-- Tier 4 -->
+        <Definition xsi:type="MyObjectBuilder_SafeZoneBlockDefinition">
+            <Id>
+                <TypeId>SafeZoneBlock</TypeId>
+                <SubtypeId>SafeZoneBlockT4</SubtypeId>
+            </Id>
+            <DisplayName>Elite Safe Zone</DisplayName>
+            <Icon>Textures\SafeZoneBlockT4.dds</Icon>
+            <Description>Description_SafeZone</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="2" y="2" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\SafeZoneBlock.mwm</Model>
+
+            <Components>
+                <Component Subtype="TechT4" Count="50"/>
+                <Component Subtype="SteelPlate" Count="500" />
+                <Component Subtype="Construction" Count="200" />
+                <Component Subtype="Computer" Count="100" />
+                <Component Subtype="SteelPlate" Count="50" />
+            </Components>
+
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Bottom" StartX="0" StartY="0.5" EndX="2" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="2" EndX="2" EndY="2.5" />
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Right" StartX="1" StartY="0.5" EndX="2" EndY="2" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0.5" EndX="1.5" EndY="1.5" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\SafeZoneBlockConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\SafeZoneBlockConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\SafeZoneBlockConstruction_3.mwm" />
+            </BuildProgressModels>
+            <ScreenAreas>
+                <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="16" ScreenHeight="10" />
+                <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_Keyboard" TextureResolution="256" ScreenWidth="5" ScreenHeight="2" />
+            </ScreenAreas>
+            <BlockPairName>SafeZoneT4</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <MirroringX>Y</MirroringX>
+            <MirroringY>X</MirroringY>
+            <BuildTimeSeconds>60</BuildTimeSeconds>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+
+            <!-- Safezone info -->
+            <MaxSafeZoneRadius>125</MaxSafeZoneRadius>
+            <MinSafeZoneRadius>10</MinSafeZoneRadius>
+            <DefaultSafeZoneRadius>125</DefaultSafeZoneRadius>
+            <SafeZoneActivationTimeS>90</SafeZoneActivationTimeS>
+            <MaxSafeZonePowerDrainkW>60000</MaxSafeZonePowerDrainkW>
+            <MinSafeZonePowerDrainkW>20000</MinSafeZonePowerDrainkW>
+            <SafeZoneUpkeep>1</SafeZoneUpkeep>
+            <SafeZoneUpkeepTimeM>360</SafeZoneUpkeepTimeM>
+            <!-- End Safezone Props-->
+
+            <ActionSound>BlockSafeZone</ActionSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10000</PCU>
+        </Definition>
+
+
+    </CubeBlocks>
+</Definitions>

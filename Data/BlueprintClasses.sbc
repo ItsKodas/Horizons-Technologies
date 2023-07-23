@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClasses>
+
+		<!-- Tritium -->
+		
+		<Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>Tritium</SubtypeId>
+            </Id>
+            <DisplayName>Tritium to Gas</DisplayName>
+            <Description>Refines Tritium Ore into a Gas</Description>
+            <Icon>Textures\GUI\Icons\tritium.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\buttons\large_block.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</FocusIcon>
+            <!-- <InputConstraintIcon>Textures\GUI\Icons\tritium_ore.dds</InputConstraintIcon> -->
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+        </Class>
+
+
+
+		<!-- Gravel Sifter -->
+
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>TraceIngots</SubtypeId>
+			</Id>
+			<DisplayName>TraceIngots</DisplayName>
+			<Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+			<!-- <HighlightIcon>Textures\GUI\Icons\buttons\large_block_focus.dds</HighlightIcon> -->
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+
+	</BlueprintClasses>
+
+
+	<BlueprintClassEntries>
+
+		<!-- Tritium -->
+
+		<Entry Class="Tritium" BlueprintSubtypeId="TritiumToGas" />
+
+
+
+		<!-- Bismuth -->
+
+		<Entry Class="Ingots" BlueprintSubtypeId="BismuthOreToIngot" />
+        <Entry Class="Ingots" BlueprintSubtypeId="BismuthOreToPowder" />
+
+        <Entry Class="CommonMetals" BlueprintSubtypeId="BismuthOreToIngot" />
+        <Entry Class="CommonMetals" BlueprintSubtypeId="BismuthOreToPowder" />
+
+        <Entry Class="Components" BlueprintSubtypeId="BismuthGravel" />
+        <Entry Class="Components" BlueprintSubtypeId="BismuthDisk" />
+        <Entry Class="Components" BlueprintSubtypeId="BismuthCrystal" />
+
+		
+
+		<!-- Gravel Sifter -->
+
+		<Entry Class="TraceIngots" BlueprintSubtypeId="GravelToIngots" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Refinery/GravelSifterT1" />
+
+	</BlueprintClassEntries>
+</Definitions>

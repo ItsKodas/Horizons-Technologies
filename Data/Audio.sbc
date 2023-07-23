@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Sounds>
+
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>TritiumMeltdown</SubtypeId>
+            </Id>
+            <Category>BLOCK</Category>
+            <MaxDistance>1500</MaxDistance>
+            <PreventSynchronization>500</PreventSynchronization>
+            <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+            <DynamicMusicAmount>25</DynamicMusicAmount>
+            <Volume>2.0</Volume>
+            <Waves>
+                <Wave Type="D3">
+                    <Start>Audio\TritiumMeltdown.wav</Start>
+                </Wave>
+            </Waves>
+        </Sound>
+
+    </Sounds>
+</Definitions>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Components>
+
+        <!-- Bismuth -->
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>BismuthGravel</SubtypeId>
+            </Id>
+            <DisplayName>Bismuth Gravel</DisplayName>
+            <Icon>Textures\GUI\Icons\bismuth_gravel.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.03</Z>
+            </Size>
+            <Mass>10</Mass>
+            <Volume>10</Volume>
+            <Model>Models\Components\construction_components_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>10</MaxIntegrity>
+            <DropProbability>0.01</DropProbability>
+            <Health>25</Health>
+            <CanPlayerOrder>false</CanPlayerOrder>
+        </Component>
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>BismuthDisk</SubtypeId>
+            </Id>
+            <DisplayName>Bismuth Disk</DisplayName>
+            <Icon>Textures\GUI\Icons\bismuth_disk.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.03</Z>
+            </Size>
+            <Mass>10</Mass>
+            <Volume>10</Volume>
+            <Model>Models\Components\steel_plate_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>10</MaxIntegrity>
+            <DropProbability>0.01</DropProbability>
+            <Health>50</Health>
+            <CanPlayerOrder>false</CanPlayerOrder>
+        </Component>
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>BismuthCrystal</SubtypeId>
+            </Id>
+            <DisplayName>Bismuth Crystal</DisplayName>
+            <Icon>Textures\GUI\Icons\bismuth_crystal.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.03</Z>
+            </Size>
+            <Mass>100</Mass>
+            <Volume>20</Volume>
+            <Model>Models\Components\ExplosivesComponent.mwm</Model>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+            <IconSymbol>Bi+</IconSymbol>
+            <MaxIntegrity>10</MaxIntegrity>
+            <DropProbability>0.01</DropProbability>
+            <Health>100</Health>
+            <CanPlayerOrder>false</CanPlayerOrder>
+        </Component>
+
+
+
+        <!-- Tiered Tech -->
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TechT2</SubtypeId>
+            </Id>
+            <DisplayName>Common Tech</DisplayName>
+            <Icon>Textures\techT2.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>50</Mass>
+            <Volume>5</Volume>
+            <Model>Models\Components\ContractPackage.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>500</MaxIntegrity>
+            <DropProbability>1</DropProbability>
+            <Health>1000</Health>
+            <MinimalPricePerUnit>100000</MinimalPricePerUnit>
+            <MinimumOfferAmount>10</MinimumOfferAmount>
+            <MaximumOfferAmount>500</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>500</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>20</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>100</MaximumAcquisitionAmount>
+        </Component>
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TechT3</SubtypeId>
+            </Id>
+            <DisplayName>Rare Tech</DisplayName>
+            <Icon>Textures\techT3.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>60</Mass>
+            <Volume>5</Volume>
+            <Model>Models\Components\ContractPackage.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>500</MaxIntegrity>
+            <DropProbability>1</DropProbability>
+            <Health>2000</Health>
+            <MinimalPricePerUnit>200000</MinimalPricePerUnit>
+            <MinimumOfferAmount>5</MinimumOfferAmount>
+            <MaximumOfferAmount>250</MaximumOfferAmount>
+            <MinimumOrderAmount>5</MinimumOrderAmount>
+            <MaximumOrderAmount>250</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>50</MaximumAcquisitionAmount>
+        </Component>
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>TechT4</SubtypeId>
+            </Id>
+            <DisplayName>Exotic Tech</DisplayName>
+            <Icon>Textures\techT4.dds</Icon>
+            <Size>
+                <X>1</X>
+                <Y>0.7</Y>
+                <Z>0.4</Z>
+            </Size>
+            <Mass>70</Mass>
+            <Volume>5</Volume>
+            <Model>Models\Components\ContractPackage.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>500</MaxIntegrity>
+            <DropProbability>1</DropProbability>
+            <Health>4000</Health>
+            <MinimalPricePerUnit>400000</MinimalPricePerUnit>
+            <MinimumOfferAmount>2</MinimumOfferAmount>
+            <MaximumOfferAmount>125</MaximumOfferAmount>
+            <MinimumOrderAmount>2</MinimumOrderAmount>
+            <MaximumOrderAmount>125</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>5</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>25</MaximumAcquisitionAmount>
+        </Component>
+
+    </Components>
+</Definitions>
