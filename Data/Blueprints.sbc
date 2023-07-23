@@ -2,6 +2,23 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Blueprints>
 
+        <!-- Neodymium -->
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>NeodymiumOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>Neodymium Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Neodymium" />
+            </Prerequisites>
+            <Result Amount="0.1" TypeId="Ingot" SubtypeId="Neodymium" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+
+
         <!-- Tritium -->
 
         <Blueprint>

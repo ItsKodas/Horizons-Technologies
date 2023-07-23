@@ -39,6 +39,13 @@
 
 	<BlueprintClassEntries>
 
+
+		<!-- Neodymium -->
+
+		<Entry Class="Ingots" BlueprintSubtypeId="NeodymiumOreToIngot" />
+		
+
+
 		<!-- Tritium -->
 
 		<Entry Class="Tritium" BlueprintSubtypeId="TritiumToGas" />
