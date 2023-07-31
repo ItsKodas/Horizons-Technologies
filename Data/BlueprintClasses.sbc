@@ -40,9 +40,16 @@
 	<BlueprintClassEntries>
 
 
+		<!-- Carbon -->
+
+		<Entry Class="Ingots" BlueprintSubtypeId="CarbonOreToIngot" />
+
+
+
 		<!-- Neodymium -->
 
 		<Entry Class="Ingots" BlueprintSubtypeId="NeodymiumOreToIngot" />
+		<Entry Class="Components" BlueprintSubtypeId="MagneticPlate" />
 		
 
 

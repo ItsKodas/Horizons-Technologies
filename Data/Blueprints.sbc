@@ -2,19 +2,53 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Blueprints>
 
+        <!-- Carbon -->
+        
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CarbonOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>Carbon Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\carbon_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Carbon" />
+            </Prerequisites>
+            <Result Amount="0.1" TypeId="Ingot" SubtypeId="Carbon" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+
+
         <!-- Neodymium -->
+
         <Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
                 <SubtypeId>NeodymiumOreToIngot</SubtypeId>
             </Id>
             <DisplayName>Neodymium Ingot</DisplayName>
-            <Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+            <Icon>Textures\GUI\Icons\neodymium_ingot.dds</Icon>
             <Prerequisites>
                 <Item Amount="1" TypeId="Ore" SubtypeId="Neodymium" />
             </Prerequisites>
             <Result Amount="0.1" TypeId="Ingot" SubtypeId="Neodymium" />
             <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MagneticPlate</SubtypeId>
+            </Id>
+            <DisplayName>Magnetic Plate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\prismatic_plate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Neodymium" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="MagneticPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
         </Blueprint>
 
 
