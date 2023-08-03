@@ -2,6 +2,27 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
 
+        <!-- Prismatics -->
+
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorPrismaticCubeGroup" />
+            <Icon>Textures\GUI\Icons\Cubes\Armor\prismatic_armor_cube.dds</Icon>
+            <DisplayName>Prismatic Armor Block</DisplayName>
+            <Description>Prismatic armor to give structure and shape to ships and stations. Lightweight but has the durability of heavy armor.</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargePrismaticArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargePrismaticArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargePrismaticArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargePrismaticArmorCornerInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallPrismaticArmorBlock" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallPrismaticArmorSlope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallPrismaticArmorCorner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallPrismaticArmorCornerInv" />
+            </Blocks>
+        </BlockVariantGroup>
+
+
+
         <!-- Tritium -->
 
         <BlockVariantGroup>
@@ -58,7 +79,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SafeZoneGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
+            <Icon>Textures\SafeZoneBlock.dds</Icon>
             <DisplayName>DisplayName_Block_SafeZone</DisplayName>
             <Description>Description_SafeZone</Description>
             <Blocks>

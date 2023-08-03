@@ -82,6 +82,7 @@
                 <Component Subtype="Detector" Count="2"/>
                 <Component Subtype="PowerCell" Count="12"/>
                 <Component Subtype="Superconductor" Count="100"/>
+                <Component Subtype="MagneticPlate" Count="10"/>
                 <Component Subtype="Computer" Count="30"/>
                 <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="SteelPlate" Count="2"/>
@@ -140,6 +141,7 @@
                 <Component Subtype="Detector" Count="2"/>
                 <Component Subtype="PowerCell" Count="12"/>
                 <Component Subtype="Superconductor" Count="100"/>
+                <Component Subtype="MagneticPlate" Count="20"/>
                 <Component Subtype="Computer" Count="30"/>
                 <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="SteelPlate" Count="2"/>
@@ -198,6 +200,7 @@
                 <Component Subtype="Detector" Count="2"/>
                 <Component Subtype="PowerCell" Count="12"/>
                 <Component Subtype="Superconductor" Count="100"/>
+                <Component Subtype="MagneticPlate" Count="30"/>
                 <Component Subtype="Computer" Count="30"/>
                 <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="SteelPlate" Count="2"/>
@@ -260,6 +263,7 @@
                 <Component Subtype="Detector" Count="30"/>
                 <Component Subtype="PowerCell" Count="180"/>
                 <Component Subtype="Superconductor" Count="1500"/>
+                <Component Subtype="MagneticPlate" Count="20"/>
                 <Component Subtype="Computer" Count="450"/>
                 <Component Subtype="Construction" Count="60"/>
                 <Component Subtype="SteelPlate" Count="30"/>
@@ -320,6 +324,7 @@
                 <Component Subtype="Detector" Count="45"/>
                 <Component Subtype="PowerCell" Count="270"/>
                 <Component Subtype="Superconductor" Count="2250"/>
+                <Component Subtype="MagneticPlate" Count="40"/>
                 <Component Subtype="Computer" Count="675"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="SteelPlate" Count="45"/>
@@ -380,6 +385,7 @@
                 <Component Subtype="Detector" Count="68"/>
                 <Component Subtype="PowerCell" Count="405"/>
                 <Component Subtype="Superconductor" Count="3375"/>
+                <Component Subtype="MagneticPlate" Count="60"/>
                 <Component Subtype="Computer" Count="1013"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="SteelPlate" Count="68"/>

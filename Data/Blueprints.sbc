@@ -2,6 +2,93 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Blueprints>
 
+        <!-- Prismatics -->
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>PrismaticPlate</SubtypeId>
+            </Id>
+            <DisplayName>Prismatic Plate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\prismatic_plate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Neodymium" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Carbon" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Silver" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Gold" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="PrismaticPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+
+
+        <!-- Carbon -->
+        
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>CarbonOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>Carbon Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\carbon_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Carbon" />
+            </Prerequisites>
+            <Result Amount="0.05" TypeId="Ingot" SubtypeId="Carbon" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>GraphenePlate</SubtypeId>
+            </Id>
+            <DisplayName>Graphene Plate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\graphene_plate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Carbon" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Magnesium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="GraphenePlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+
+
+        <!-- Neodymium -->
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>NeodymiumOreToIngot</SubtypeId>
+            </Id>
+            <DisplayName>Neodymium Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\neodymium_ingot.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ore" SubtypeId="Neodymium" />
+            </Prerequisites>
+            <Result Amount="0.05" TypeId="Ingot" SubtypeId="Neodymium" />
+            <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>MagneticPlate</SubtypeId>
+            </Id>
+            <DisplayName>Magnetic Plate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\magnetic_plate.dds</Icon>
+            <Prerequisites>
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Neodymium" />
+                <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Cobalt" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="Component" SubtypeId="MagneticPlate" />
+            <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+
+
         <!-- Tritium -->
 
         <Blueprint>

@@ -3,6 +3,117 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <PhysicalItems>
 
+        <!-- Prismatics -->
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Neodymium</SubtypeId>
+            </Id>
+            <DisplayName>Neodymium Ore</DisplayName>
+            <Icon>Textures\GUI\Icons\neodymium_ore.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Nd</IconSymbol>
+            <MinimalPricePerUnit>800</MinimalPricePerUnit>
+            <MinimumOfferAmount>500</MinimumOfferAmount>
+            <MaximumOfferAmount>5000</MaximumOfferAmount>
+            <MinimumOrderAmount>500</MinimumOrderAmount>
+            <MaximumOrderAmount>5000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Neodymium</SubtypeId>
+            </Id>
+            <DisplayName>Neodymium Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\neodymium_ingot.dds</Icon>
+            <Size>
+                <X>0.046</X>
+                <Y>0.046</Y>
+                <Z>0.046</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.095</Volume>
+            <Model>Models\Ingots\generic_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>Nd</IconSymbol>
+            <MinimumOfferAmount>500</MinimumOfferAmount>
+            <MaximumOfferAmount>5000</MaximumOfferAmount>
+            <MinimumOrderAmount>30</MinimumOrderAmount>
+            <MaximumOrderAmount>3000</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Carbon</SubtypeId>
+            </Id>
+            <DisplayName>Carbon Ore</DisplayName>
+            <Icon>Textures\GUI\Icons\carbon_ore.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>C</IconSymbol>
+            <MinimalPricePerUnit>800</MinimalPricePerUnit>
+            <MinimumOfferAmount>500</MinimumOfferAmount>
+            <MaximumOfferAmount>5000</MaximumOfferAmount>
+            <MinimumOrderAmount>500</MinimumOrderAmount>
+            <MaximumOrderAmount>5000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ingot</TypeId>
+                <SubtypeId>Carbon</SubtypeId>
+            </Id>
+            <DisplayName>Carbon Ingot</DisplayName>
+            <Icon>Textures\GUI\Icons\carbon_ingot.dds</Icon>
+            <Size>
+                <X>0.046</X>
+                <Y>0.046</Y>
+                <Z>0.046</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.095</Volume>
+            <Model>Models\Ingots\generic_ingot.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <IconSymbol>C</IconSymbol>
+            <MinimumOfferAmount>500</MinimumOfferAmount>
+            <MaximumOfferAmount>5000</MaximumOfferAmount>
+            <MinimumOrderAmount>30</MinimumOrderAmount>
+            <MaximumOrderAmount>3000</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+
+
 
         <!-- Tritium -->
 

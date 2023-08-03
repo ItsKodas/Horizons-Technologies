@@ -39,6 +39,26 @@
 
 	<BlueprintClassEntries>
 
+		<!-- Prismatics -->
+
+		<Entry Class="Components" BlueprintSubtypeId="PrismaticPlate" />
+
+
+
+		<!-- Carbon -->
+
+		<Entry Class="Ingots" BlueprintSubtypeId="CarbonOreToIngot" />
+		<Entry Class="Components" BlueprintSubtypeId="GraphenePlate" />
+
+
+
+		<!-- Neodymium -->
+
+		<Entry Class="Ingots" BlueprintSubtypeId="NeodymiumOreToIngot" />
+		<Entry Class="Components" BlueprintSubtypeId="MagneticPlate" />
+		
+
+
 		<!-- Tritium -->
 
 		<Entry Class="Tritium" BlueprintSubtypeId="TritiumToGas" />

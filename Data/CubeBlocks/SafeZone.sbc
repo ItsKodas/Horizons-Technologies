@@ -87,6 +87,7 @@
                 <Component Subtype="TechT2" Count="50"/>
                 <Component Subtype="SteelPlate" Count="500" />
                 <Component Subtype="Construction" Count="200" />
+                <Component Subtype="MagneticPlate" Count="10" />
                 <Component Subtype="Computer" Count="100" />
                 <Component Subtype="SteelPlate" Count="50" />
             </Components>
@@ -153,6 +154,8 @@
                 <Component Subtype="TechT3" Count="50"/>
                 <Component Subtype="SteelPlate" Count="500" />
                 <Component Subtype="Construction" Count="200" />
+                <Component Subtype="MagneticPlate" Count="20" />
+                <Component Subtype="GraphenePlate" Count="30" />
                 <Component Subtype="Computer" Count="100" />
                 <Component Subtype="SteelPlate" Count="50" />
             </Components>
@@ -219,6 +222,9 @@
                 <Component Subtype="TechT4" Count="50"/>
                 <Component Subtype="SteelPlate" Count="500" />
                 <Component Subtype="Construction" Count="200" />
+                <Component Subtype="MagneticPlate" Count="20" />
+                <Component Subtype="GraphenePlate" Count="20" />
+                <Component Subtype="PrismaticPlate" Count="10" />
                 <Component Subtype="Computer" Count="100" />
                 <Component Subtype="SteelPlate" Count="50" />
             </Components>

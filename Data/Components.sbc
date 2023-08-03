@@ -2,6 +2,99 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Components>
 
+        <!-- Prismatics -->
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>PrismaticPlate</SubtypeId>
+            </Id>
+            <DisplayName>Prismatic Plate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\prismatic_plate.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>25</Mass>
+            <Volume>3</Volume>
+            <Model>Models\Components\steel_plate_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>100</MaxIntegrity>
+            <Health>100</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+
+
+        <!-- Carbon -->
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>GraphenePlate</SubtypeId>
+            </Id>
+            <DisplayName>Graphene Plate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\graphene_plate.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>10</Mass>
+            <Volume>3</Volume>
+            <Model>Models\Components\steel_plate_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>100</MaxIntegrity>
+            <Health>100</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+
+
+        <!-- Neodymium -->
+
+        <Component>
+            <Id>
+                <TypeId>Component</TypeId>
+                <SubtypeId>MagneticPlate</SubtypeId>
+            </Id>
+            <DisplayName>Magnetic Plate</DisplayName>
+            <Icon>Textures\GUI\Icons\component\magnetic_plate.dds</Icon>
+            <Size>
+                <X>0.5</X>
+                <Y>0.5</Y>
+                <Z>0.01</Z>
+            </Size>
+            <Mass>20</Mass>
+            <Volume>3</Volume>
+            <Model>Models\Components\steel_plate_component.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <MaxIntegrity>100</MaxIntegrity>
+            <Health>60</Health>
+            <MinimumOfferAmount>250</MinimumOfferAmount>
+            <MaximumOfferAmount>2500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>false</CanPlayerOrder>
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+        </Component>
+
+
+
         <!-- Bismuth -->
 
         <Component>
