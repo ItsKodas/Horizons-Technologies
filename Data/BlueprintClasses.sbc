@@ -39,10 +39,16 @@
 
 	<BlueprintClassEntries>
 
+		<!-- Prismatics -->
+
+		<Entry Class="Components" BlueprintSubtypeId="PrismaticPlate" />
+
+
 
 		<!-- Carbon -->
 
 		<Entry Class="Ingots" BlueprintSubtypeId="CarbonOreToIngot" />
+		<Entry Class="Components" BlueprintSubtypeId="GraphenePlate" />
 
 
 

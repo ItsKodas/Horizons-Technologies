@@ -29,10 +29,12 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="PrismaticPlate" Count="20" />
+                <Component Subtype="PrismaticPlate" Count="10" />
+                <Component Subtype="GraphenePlate" Count="5" />
+                <Component Subtype="MagneticPlate" Count="5" />
                 <Component Subtype="PrismaticPlate" Count="5" />
             </Components>
-            <CriticalComponent Subtype="PrismaticPlate" Index="0" />
+            <CriticalComponent Subtype="MagneticPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -157,7 +159,7 @@
                 </BoneInfo>
             </Skeleton>
             <BlockPairName>PrismaticArmorBlock</BlockPairName>
-            <DeformationRatio>0.1</DeformationRatio>
+            <DeformationRatio>0.4</DeformationRatio>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
@@ -191,11 +193,12 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="SteelPlate" Count="65" />
-                <Component Subtype="MetalGrid" Count="25" />
-                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="PrismaticPlate" Count="5" />
+                <Component Subtype="GraphenePlate" Count="3" />
+                <Component Subtype="MagneticPlate" Count="3" />
+                <Component Subtype="PrismaticPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <CriticalComponent Subtype="MagneticPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -291,6 +294,7 @@
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>15</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
+            <GeneralDamageMultiplier>0.1</GeneralDamageMultiplier>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
         </Definition>
@@ -318,11 +322,12 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="SteelPlate" Count="20" />
-                <Component Subtype="MetalGrid" Count="10" />
-                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="PrismaticPlate" Count="3" />
+                <Component Subtype="GraphenePlate" Count="2" />
+                <Component Subtype="MagneticPlate" Count="2" />
+                <Component Subtype="PrismaticPlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <CriticalComponent Subtype="MagneticPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
                 <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -387,6 +392,7 @@
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
+            <GeneralDamageMultiplier>0.1</GeneralDamageMultiplier>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
             <IsAirTight>false</IsAirTight>
@@ -418,11 +424,12 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="SteelPlate" Count="110" />
-                <Component Subtype="MetalGrid" Count="50" />
-                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="PrismaticPlate" Count="8" />
+                <Component Subtype="GraphenePlate" Count="3" />
+                <Component Subtype="MagneticPlate" Count="3" />
+                <Component Subtype="PrismaticPlate" Count="3" />
             </Components>
-            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <CriticalComponent Subtype="MagneticPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -542,6 +549,7 @@
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>16</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
+            <GeneralDamageMultiplier>0.1</GeneralDamageMultiplier>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
         </Definition>
@@ -574,11 +582,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="SteelPlate" Count="4" />
-                <Component Subtype="MetalGrid" Count="2" />
-                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="PrismaticPlate" Count="1" />
+                <Component Subtype="MagneticPlate" Count="1" />
+                <Component Subtype="GraphenePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="SteelPlate" Index="1" />
+            <CriticalComponent Subtype="MagneticPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -706,6 +714,7 @@
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
             <EdgeType>Heavy</EdgeType>
+            <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
             <IsAirTight>true</IsAirTight>
@@ -735,11 +744,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="SteelPlate" Count="2" />
-                <Component Subtype="MetalGrid" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="PrismaticPlate" Count="1" />
+                <Component Subtype="MagneticPlate" Count="1" />
+                <Component Subtype="GraphenePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <CriticalComponent Subtype="MagneticPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -834,6 +843,7 @@
             <BuildTimeSeconds>4</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
             <EdgeType>Heavy</EdgeType>
+            <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
         </Definition>
@@ -861,11 +871,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="SteelPlate" Count="1" />
-                <Component Subtype="MetalGrid" Count="1" />
-                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="PrismaticPlate" Count="1" />
+                <Component Subtype="MagneticPlate" Count="1" />
+                <Component Subtype="GraphenePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <CriticalComponent Subtype="MagneticPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
                 <MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
@@ -929,6 +939,7 @@
             <BuildTimeSeconds>2</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
             <EdgeType>Heavy</EdgeType>
+            <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
             <IsAirTight>false</IsAirTight>
@@ -960,11 +971,11 @@
                 </Sides>
             </CubeDefinition>
             <Components>
-                <Component Subtype="SteelPlate" Count="2" />
-                <Component Subtype="MetalGrid" Count="1" />
-                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="PrismaticPlate" Count="1" />
+                <Component Subtype="MagneticPlate" Count="1" />
+                <Component Subtype="GraphenePlate" Count="1" />
             </Components>
-            <CriticalComponent Subtype="SteelPlate" Index="0" />
+            <CriticalComponent Subtype="MagneticPlate" Index="0" />
             <MountPoints>
                 <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
                 <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -1083,6 +1094,7 @@
             <BuildTimeSeconds>5</BuildTimeSeconds>
             <DisassembleRatio>3</DisassembleRatio>
             <EdgeType>Heavy</EdgeType>
+            <GeneralDamageMultiplier>0.25</GeneralDamageMultiplier>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
         </Definition>
