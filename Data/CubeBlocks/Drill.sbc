@@ -104,6 +104,7 @@
                 <Component Subtype="Construction" Count="68"/>
                 <Component Subtype="LargeTube" Count="9"/>
                 <Component Subtype="Motor" Count="3"/>
+                <Component Subtype="GraphenePlate" Count="10"/>
                 <Component Subtype="Computer" Count="3"/>
                 <Component Subtype="SteelPlate" Count="27"/>
             </Components>
@@ -180,6 +181,7 @@
                 <Component Subtype="Construction" Count="102"/>
                 <Component Subtype="LargeTube" Count="14"/>
                 <Component Subtype="Motor" Count="4"/>
+                <Component Subtype="GraphenePlate" Count="20"/>
                 <Component Subtype="Computer" Count="4"/>
                 <Component Subtype="SteelPlate" Count="41"/>
             </Components>
@@ -339,6 +341,7 @@
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="LargeTube" Count="27"/>
                 <Component Subtype="Motor" Count="12"/>
+                <Component Subtype="GraphenePlate" Count="20"/>
                 <Component Subtype="Computer" Count="12"/>
                 <Component Subtype="SteelPlate" Count="270"/>
             </Components>
@@ -419,6 +422,7 @@
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="LargeTube" Count="41"/>
                 <Component Subtype="Motor" Count="17"/>
+                <Component Subtype="GraphenePlate" Count="40"/>
                 <Component Subtype="Computer" Count="17"/>
                 <Component Subtype="SteelPlate" Count="405"/>
             </Components>

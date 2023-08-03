@@ -79,7 +79,7 @@
 
         <BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SafeZoneGroup" />
-            <Icon>Textures\GUI\Icons\Cubes\SafeZoneBlock.dds</Icon>
+            <Icon>Textures\SafeZoneBlock.dds</Icon>
             <DisplayName>DisplayName_Block_SafeZone</DisplayName>
             <Description>Description_SafeZone</Description>
             <Blocks>

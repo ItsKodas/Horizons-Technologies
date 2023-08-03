@@ -12,7 +12,7 @@
             <SpawnsInAsteroids>true</SpawnsInAsteroids>
             <MaterialTypeName>Rock</MaterialTypeName>
             <MinedOre>Carbon</MinedOre>
-            <MinedOreRatio>5</MinedOreRatio>
+            <MinedOreRatio>1</MinedOreRatio>
             <CanBeHarvested>true</CanBeHarvested>
             <IsRare>true</IsRare>
 
