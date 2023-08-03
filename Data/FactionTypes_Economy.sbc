@@ -15,6 +15,7 @@
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Uranium" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Tritium" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Neodymium" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Carbon" />
             <ItemId Type="MyObjectBuilder_Datapad" Subtype="Datapad" />
 
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Iron" />
@@ -26,7 +27,6 @@
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Gold" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Platinum" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Uranium" />
-            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Neodymium" />
 
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill3Item" />
             <ItemId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrill4Item" />
@@ -48,6 +48,8 @@
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Platinum" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Uranium" />
             <ItemId Type="MyObjectBuilder_Ore" Subtype="Tritium" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Neodymium" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Carbon" />
 
             <ItemId Type="MyObjectBuilder_Component" Subtype="SteelPlate" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Construction" />
