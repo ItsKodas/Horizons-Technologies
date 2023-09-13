@@ -1,35 +1,35 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <ContainerTypes>
+
         <ContainerType CountMin="2" CountMax="6">
             <Id>
                 <TypeId>ContainerTypeDefinition</TypeId>
                 <SubtypeId>PersonalContainerSmall</SubtypeId>
             </Id>
-            <Items>
 
+            <Items>
                 <Item AmountMin="2" AmountMax="30">
-                    <Frequency>1</Frequency>
+                    <Frequency>0.5</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>TechT2</SubtypeId>
                     </Id>
                 </Item>
-                <Item AmountMin="2" AmountMax="30">
-                    <Frequency>0.75</Frequency>
+                <Item AmountMin="2" AmountMax="25">
+                    <Frequency>0.35</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>TechT3</SubtypeId>
                     </Id>
                 </Item>
-                <Item AmountMin="2" AmountMax="30">
-                    <Frequency>0.5</Frequency>
+                <Item AmountMin="2" AmountMax="20">
+                    <Frequency>0.2</Frequency>
                     <Id>
                         <TypeId>Component</TypeId>
                         <SubtypeId>TechT4</SubtypeId>
                     </Id>
                 </Item>
-
 
                 <Item AmountMin="0" AmountMax="10000">
                     <Frequency>1</Frequency>
@@ -38,7 +38,6 @@
                         <SubtypeId>SpaceCredit</SubtypeId>
                     </Id>
                 </Item>
-
                 <Item AmountMin="1" AmountMax="3">
                     <Frequency>0.1</Frequency>
                     <Id>
@@ -46,7 +45,6 @@
                         <SubtypeId>Medkit</SubtypeId>
                     </Id>
                 </Item>
-
                 <Item AmountMin="1" AmountMax="3">
                     <Frequency>0.1</Frequency>
                     <Id>
@@ -54,7 +52,6 @@
                         <SubtypeId>Powerkit</SubtypeId>
                     </Id>
                 </Item>
-
                 <Item AmountMin="5" AmountMax="20">
                     <Frequency>0.1</Frequency>
                     <Id>
@@ -125,8 +122,8 @@
                         <SubtypeId>SabiroidPlushie</SubtypeId>
                     </Id>
                 </Item>
+
             </Items>
         </ContainerType>
-
     </ContainerTypes>
 </Definitions>
