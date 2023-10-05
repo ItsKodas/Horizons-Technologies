@@ -35,7 +35,7 @@ namespace Horizon.TritHUD
             if(MyAPIGateway.Session == null)
                 return;
 
-            IMyEntity entity = MyAPIGateway.Session.Player.Controller.ControlledEntity.Entity;
+            IMyEntity entity = MyAPIGateway.Session.Player?.Controller?.ControlledEntity?.Entity;
             if (entity is IMyCubeBlock) {
                 grid = (entity as IMyCubeBlock).CubeGrid;
             }
@@ -106,7 +106,7 @@ namespace Horizon.TritHUD
             if(MyAPIGateway.Session == null)
                 return;
 
-            IMyEntity entity = MyAPIGateway.Session.Player.Controller.ControlledEntity.Entity;
+            IMyEntity entity = MyAPIGateway.Session.Player?.Controller?.ControlledEntity?.Entity;
             if (entity is IMyCubeBlock) {
                 grid = (entity as IMyCubeBlock).CubeGrid;
             }
