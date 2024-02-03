@@ -158,7 +158,7 @@
             <IconSymbol>Bi+</IconSymbol>
             <MaxIntegrity>10</MaxIntegrity>
             <DropProbability>0.01</DropProbability>
-            <Health>1003</Health>
+            <Health>100</Health>
             <CanPlayerOrder>false</CanPlayerOrder>
         </Component>
 
