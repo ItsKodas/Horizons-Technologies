@@ -105,6 +105,7 @@
             <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="1"/>
+                <Component Subtype="TechT2" Count="1"/>
                 <Component Subtype="SteelPlate" Count="14"/>
                 <Component Subtype="LargeTube" Count="5"/>
                 <Component Subtype="SmallTube" Count="9"/>
@@ -187,6 +188,8 @@
             <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="1"/>
+                <Component Subtype="TechT3" Count="1"/>
+                <Component Subtype="TechT2" Count="1"/>
                 <Component Subtype="SteelPlate" Count="21"/>
                 <Component Subtype="LargeTube" Count="7"/>
                 <Component Subtype="SmallTube" Count="14"/>
@@ -370,6 +373,7 @@
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="135"/>
                 <Component Subtype="LargeTube" Count="90"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -468,6 +472,8 @@
             <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="8"/>
+                <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="203"/>
                 <Component Subtype="LargeTube" Count="135"/>
                 <Component Subtype="SmallTube" Count="203"/>
@@ -651,6 +657,7 @@
             <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="135"/>
                 <Component Subtype="LargeTube" Count="90"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -733,6 +740,8 @@
             <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="8"/>
+                <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="203"/>
                 <Component Subtype="LargeTube" Count="135"/>
                 <Component Subtype="SmallTube" Count="203"/>
@@ -904,6 +913,7 @@
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="38"/>
+                <Component Subtype="TechT2" Count="38"/>
                 <Component Subtype="SteelPlate" Count="360"/>
                 <Component Subtype="LargeTube" Count="180"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -990,6 +1000,8 @@
             <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="38"/>
+                <Component Subtype="TechT3" Count="38"/>
+                <Component Subtype="TechT2" Count="38"/>
                 <Component Subtype="SteelPlate" Count="540"/>
                 <Component Subtype="LargeTube" Count="270"/>
                 <Component Subtype="SmallTube" Count="203"/>

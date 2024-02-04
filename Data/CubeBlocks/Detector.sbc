@@ -122,6 +122,7 @@
             <Model>Models\Cubes\Large\OreDetector.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="40"/>
+                <Component Subtype="TechT2" Count="40"/>
                 <Component Subtype="BismuthGravel" Count="20"/>
                 <Component Subtype="SteelPlate" Count="68"/>
                 <Component Subtype="Construction" Count="90"/>
@@ -174,6 +175,7 @@
             <Model>Models\Cubes\Small\OreDetector.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="12"/>
+                <Component Subtype="TechT2" Count="12"/>
                 <Component Subtype="BismuthGravel" Count="10"/>
                 <Component Subtype="SteelPlate" Count="3"/>
                 <Component Subtype="Construction" Count="5"/>
@@ -227,6 +229,8 @@
             <Model>Models\Cubes\Large\OreDetector.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="40"/>
+                <Component Subtype="TechT3" Count="40"/>
+                <Component Subtype="TechT2" Count="40"/>
                 <Component Subtype="BismuthGravel" Count="100"/>
                 <Component Subtype="BismuthCrystal" Count="3"/>
                 <Component Subtype="SteelPlate" Count="102"/>
@@ -280,6 +284,8 @@
             <Model>Models\Cubes\Small\OreDetector.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="12"/>
+                <Component Subtype="TechT3" Count="12"/>
+                <Component Subtype="TechT2" Count="12"/>
                 <Component Subtype="BismuthGravel" Count="50"/>
                 <Component Subtype="BismuthCrystal" Count="1"/>
                 <Component Subtype="SteelPlate" Count="4"/>

@@ -135,6 +135,7 @@
             <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="MetalGrid" Count="5"/>
                 <Component Subtype="GravityGenerator" Count="2"/>
@@ -194,6 +195,8 @@
             <Model>Models\Cubes\JumpDrive\JumpDrive.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="8"/>
+                <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="4"/>
                 <Component Subtype="MetalGrid" Count="5"/>
                 <Component Subtype="GravityGenerator" Count="2"/>
@@ -318,6 +321,7 @@
             <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="75"/>
+                <Component Subtype="TechT2" Count="75"/>
                 <Component Subtype="SteelPlate" Count="90"/>
                 <Component Subtype="MetalGrid" Count="113"/>
                 <Component Subtype="GravityGenerator" Count="45"/>
@@ -379,6 +383,8 @@
             <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="75"/>
+                <Component Subtype="TechT3" Count="75"/>
+                <Component Subtype="TechT2" Count="75"/>
                 <Component Subtype="SteelPlate" Count="135"/>
                 <Component Subtype="MetalGrid" Count="169"/>
                 <Component Subtype="GravityGenerator" Count="68"/>

@@ -118,6 +118,7 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="25"/>
                 <Component Subtype="Construction" Count="34"/>
                 <Component Subtype="LargeTube" Count="9"/>
@@ -214,6 +215,8 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="TechT4" Count="8"/>
+                <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="38"/>
                 <Component Subtype="Construction" Count="51"/>
                 <Component Subtype="LargeTube" Count="14"/>
@@ -399,6 +402,7 @@
             <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="20"/>
+                <Component Subtype="TechT2" Count="20"/>
                 <Component Subtype="SteelPlate" Count="248"/>
                 <Component Subtype="Construction" Count="12"/>
                 <Component Subtype="LargeTube" Count="5"/>
@@ -486,6 +490,8 @@
             <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="20"/>
+                <Component Subtype="TechT3" Count="20"/>
+                <Component Subtype="TechT2" Count="20"/>
                 <Component Subtype="SteelPlate" Count="372"/>
                 <Component Subtype="Construction" Count="17"/>
                 <Component Subtype="LargeTube" Count="7"/>

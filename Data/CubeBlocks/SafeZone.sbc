@@ -152,6 +152,7 @@
 
             <Components>
                 <Component Subtype="TechT3" Count="50"/>
+                <Component Subtype="TechT2" Count="50"/>
                 <Component Subtype="SteelPlate" Count="500" />
                 <Component Subtype="Construction" Count="200" />
                 <Component Subtype="MagneticPlate" Count="20" />
@@ -220,6 +221,8 @@
 
             <Components>
                 <Component Subtype="TechT4" Count="50"/>
+                <Component Subtype="TechT3" Count="50"/>
+                <Component Subtype="TechT2" Count="50"/>
                 <Component Subtype="SteelPlate" Count="500" />
                 <Component Subtype="Construction" Count="200" />
                 <Component Subtype="MagneticPlate" Count="20" />

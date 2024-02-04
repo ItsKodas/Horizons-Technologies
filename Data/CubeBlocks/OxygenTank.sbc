@@ -94,6 +94,7 @@
             <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="4"/>
+                <Component Subtype="TechT2" Count="4"/>
                 <Component Subtype="SteelPlate" Count="23"/>
                 <Component Subtype="LargeTube" Count="18"/>
                 <Component Subtype="SmallTube" Count="23"/>
@@ -167,6 +168,8 @@
             <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="4"/>
+                <Component Subtype="TechT3" Count="4"/>
+                <Component Subtype="TechT2" Count="4"/>
                 <Component Subtype="SteelPlate" Count="34"/>
                 <Component Subtype="LargeTube" Count="27"/>
                 <Component Subtype="SmallTube" Count="34"/>
@@ -323,6 +326,7 @@
             <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="135"/>
                 <Component Subtype="LargeTube" Count="90"/>
                 <Component Subtype="SmallTube" Count="135"/>
@@ -403,6 +407,8 @@
             <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="8"/>
+                <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="203"/>
                 <Component Subtype="LargeTube" Count="135"/>
                 <Component Subtype="SmallTube" Count="203"/>
