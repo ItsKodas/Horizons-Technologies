@@ -73,6 +73,7 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="TechT3" Count="2"/>
+                <Component Subtype="TechT2" Count="2"/>
                 <Component Subtype="SteelPlate" Count="34"/>
                 <Component Subtype="Construction" Count="12"/>
                 <Component Subtype="LargeTube" Count="3"/>
@@ -124,6 +125,8 @@
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
                 <Component Subtype="TechT4" Count="3"/>
+                <Component Subtype="TechT3" Count="2"/>
+                <Component Subtype="TechT2" Count="2"/>
                 <Component Subtype="SteelPlate" Count="51"/>
                 <Component Subtype="Construction" Count="17"/>
                 <Component Subtype="LargeTube" Count="4"/>
@@ -229,6 +232,7 @@
             <Model>Models\Cubes\Large\gyroscope.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="1125"/>
                 <Component Subtype="Construction" Count="90"/>
                 <Component Subtype="LargeTube" Count="9"/>
@@ -281,6 +285,8 @@
             <Model>Models\Cubes\Large\gyroscope.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="8"/>
+                <Component Subtype="TechT3" Count="8"/>
+                <Component Subtype="TechT2" Count="8"/>
                 <Component Subtype="SteelPlate" Count="1688"/>
                 <Component Subtype="Construction" Count="135"/>
                 <Component Subtype="LargeTube" Count="14"/>

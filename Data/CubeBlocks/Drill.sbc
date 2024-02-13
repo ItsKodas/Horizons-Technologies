@@ -98,6 +98,7 @@
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
                 <Component Subtype="TechT3" Count="20"/>
+                <Component Subtype="TechT2" Count="20"/>
                 <Component Subtype="GravityGenerator" Count="2"/>
                 <Component Subtype="Thrust" Count="5"/>
                 <Component Subtype="SteelPlate" Count="45"/>
@@ -176,6 +177,8 @@
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
                 <Component Subtype="TechT4" Count="20"/>
+                <Component Subtype="TechT3" Count="20"/>
+                <Component Subtype="TechT2" Count="20"/>
                 <Component Subtype="BismuthCrystal" Count="1"/>
                 <Component Subtype="SteelPlate" Count="68"/>
                 <Component Subtype="Construction" Count="102"/>
@@ -335,6 +338,7 @@
             <UsesDeformation>false</UsesDeformation>
             <Components>
                 <Component Subtype="TechT3" Count="40"/>
+                <Component Subtype="TechT2" Count="40"/>
                 <Component Subtype="GravityGenerator" Count="5"/>
                 <Component Subtype="Thrust" Count="15"/>
                 <Component Subtype="SteelPlate" Count="405"/>
@@ -416,6 +420,8 @@
             <UsesDeformation>false</UsesDeformation>
             <Components>
                 <Component Subtype="TechT4" Count="40"/>
+                <Component Subtype="TechT3" Count="40"/>
+                <Component Subtype="TechT2" Count="40"/>
                 <Component Subtype="BismuthDisk" Count="20"/>
                 <Component Subtype="BismuthCrystal" Count="3"/>
                 <Component Subtype="SteelPlate" Count="608"/>

@@ -91,6 +91,7 @@
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="30"/>
+                <Component Subtype="TechT2" Count="30"/>
                 <Component Subtype="BismuthDisk" Count="10"/>
                 <Component Subtype="SteelPlate" Count="270"/>
                 <Component Subtype="Construction" Count="180"/>
@@ -164,6 +165,8 @@
             <Model>Models\Cubes\Large\Assembler.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="30"/>
+                <Component Subtype="TechT3" Count="30"/>
+                <Component Subtype="TechT2" Count="30"/>
                 <Component Subtype="BismuthCrystal" Count="5"/>
                 <Component Subtype="BismuthDisk" Count="20"/>
                 <Component Subtype="SteelPlate" Count="405"/>

@@ -75,6 +75,7 @@
             <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="4"/>
+                <Component Subtype="TechT2" Count="4"/>
                 <Component Subtype="InteriorPlate" Count="45"/>
                 <Component Subtype="Construction" Count="23"/>
                 <Component Subtype="Computer" Count="9"/>
@@ -130,6 +131,8 @@
             <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="4"/>
+                <Component Subtype="TechT3" Count="4"/>
+                <Component Subtype="TechT2" Count="4"/>
                 <Component Subtype="InteriorPlate" Count="68"/>
                 <Component Subtype="Construction" Count="34"/>
                 <Component Subtype="Computer" Count="14"/>

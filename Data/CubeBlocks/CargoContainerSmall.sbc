@@ -76,6 +76,7 @@
             <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="1"/>
+                <Component Subtype="TechT2" Count="1"/>
                 <Component Subtype="InteriorPlate" Count="5"/>
                 <Component Subtype="Construction" Count="3"/>
                 <Component Subtype="Computer" Count="3"/>
@@ -131,6 +132,8 @@
             <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="1"/>
+                <Component Subtype="TechT3" Count="1"/>
+                <Component Subtype="TechT2" Count="1"/>
                 <Component Subtype="InteriorPlate" Count="7"/>
                 <Component Subtype="Construction" Count="4"/>
                 <Component Subtype="Computer" Count="4"/>
@@ -248,6 +251,7 @@
             <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
             <Components>
                 <Component Subtype="TechT3" Count="11"/>
+                <Component Subtype="TechT2" Count="11"/>
                 <Component Subtype="InteriorPlate" Count="68"/>
                 <Component Subtype="Construction" Count="79"/>
                 <Component Subtype="MetalGrid" Count="9"/>
@@ -307,6 +311,8 @@
             <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
             <Components>
                 <Component Subtype="TechT4" Count="11"/>
+                <Component Subtype="TechT3" Count="11"/>
+                <Component Subtype="TechT2" Count="11"/>
                 <Component Subtype="InteriorPlate" Count="102"/>
                 <Component Subtype="Construction" Count="119"/>
                 <Component Subtype="MetalGrid" Count="14"/>
