@@ -147,19 +147,6 @@
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlock" />
                 <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlock" />
-
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT2" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT2" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT2" />
-
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT3" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT3" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT3" />
-
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="LargeBlockBatteryBlockT4" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockBatteryBlockT4" />
-                <Block Type="MyObjectBuilder_BatteryBlock" Subtype="SmallBlockSmallBatteryBlockT4" />
-
             </Blocks>
         </BlockVariantGroup>
 
@@ -173,21 +160,6 @@
                 <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGenerator" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGenerator" />
                 <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGenerator" />
-
-                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGeneratorT2" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGeneratorT2" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGeneratorT2" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGeneratorT2" />
-
-                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGeneratorT3" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGeneratorT3" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGeneratorT3" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGeneratorT3" />
-
-                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGeneratorT4" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="LargeBlockLargeGeneratorT4" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockSmallGeneratorT4" />
-                <Block Type="MyObjectBuilder_Reactor" Subtype="SmallBlockLargeGeneratorT4" />
             </Blocks>
         </BlockVariantGroup>
 

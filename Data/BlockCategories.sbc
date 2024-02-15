@@ -96,41 +96,7 @@
                 <string>JumpDrive/LargeJumpDriveT3</string>
                 <string>JumpDrive/LargeJumpDriveT4</string>
 
-
-
-                <!-- Power -->
-
-                <string>BatteryBlock/SmallBlockSmallBatteryBlockT2</string>
-                <string>BatteryBlock/SmallBlockSmallBatteryBlockT3</string>
-                <string>BatteryBlock/SmallBlockSmallBatteryBlockT4</string>
-
-                <string>BatteryBlock/SmallBlockBatteryBlockT2</string>
-                <string>BatteryBlock/SmallBlockBatteryBlockT3</string>
-                <string>BatteryBlock/SmallBlockBatteryBlockT4</string>
-
-                <string>BatteryBlock/LargeBlockBatteryBlockT2</string>
-                <string>BatteryBlock/LargeBlockBatteryBlockT3</string>
-                <string>BatteryBlock/LargeBlockBatteryBlockT4</string>
-
-
-                <string>Reactor/LargeBlockSmallGeneratorT2</string>
-                <string>Reactor/LargeBlockSmallGeneratorT3</string>
-                <string>Reactor/LargeBlockSmallGeneratorT4</string>
-
-                <string>Reactor/LargeBlockLargeGeneratorT2</string>
-                <string>Reactor/LargeBlockLargeGeneratorT3</string>
-                <string>Reactor/LargeBlockLargeGeneratorT4</string>
-
-                <string>Reactor/SmallBlockSmallGeneratorT2</string>
-                <string>Reactor/SmallBlockSmallGeneratorT3</string>
-                <string>Reactor/SmallBlockSmallGeneratorT4</string>
                 
-                <string>Reactor/SmallBlockLargeGeneratorT2</string>
-                <string>Reactor/SmallBlockLargeGeneratorT3</string>
-                <string>Reactor/SmallBlockLargeGeneratorT4</string>
-
-
-
                 <!-- Logistics -->
 
                 <string>CargoContainer/SmallBlockSmallContainerT2</string>
