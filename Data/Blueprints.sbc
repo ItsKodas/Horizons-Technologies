@@ -87,26 +87,6 @@
             <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
         </Blueprint>
 
-
-
-        <!-- Tritium -->
-
-        <Blueprint>
-            <Id>
-                <TypeId>BlueprintDefinition</TypeId>
-                <SubtypeId>TritiumToGas</SubtypeId>
-            </Id>
-            <DisplayName>Tritium Gas</DisplayName>
-            <Icon>Textures\GUI\Icons\tritium.dds</Icon>
-            <Prerequisites>
-                <Item Amount="1" TypeId="Ore" SubtypeId="Tritium" />
-            </Prerequisites>
-            <Result Amount="0.9" TypeId="Ingot" SubtypeId="Stone" />
-            <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
-        </Blueprint>
-
-
-
         <!-- Bismuth -->
 
         <Blueprint>
